@@ -8,4 +8,52 @@ a.button {
 	display: inline-block;
 	padding: 10px 20px;
 	text-decoration: none;
-	
+}
+	.box {
+		background-color: white;
+		padding: 20px;
+		border: 1px solid black;
+	  }
+	  .box2 {
+		background-color: rgb(160, 219, 149);
+		padding: 20px;
+		border: 1px solid rgb(48, 92, 66);
+	  }
+	  .box3 {
+		background-color: white;
+		padding: 20px;
+		border: 1px solid black;
+	  }
+	  
+	  .box3:hover {
+		background-color: rgb(150, 205, 210);
+	  }
+	  .box4 {
+		background-color: white;
+		padding: 20px;
+		border: 1px solid black;
+		transition: background-color 1s ease;
+	  }
+	  
+	  .box4:hover {
+		animation: colorChange 1s ease infinite;
+	  }
+	  
+	  @keyframes colorChange {
+		0% {
+		  background-color: white;
+		}
+		25% {
+		  background-color: lightgray;
+		}
+		50% {
+		  background-color: rgb(52, 103, 215);
+		}
+		75% {
+		  background-color: lightblue;
+		}
+		100% {
+		  background-color: white;
+		}
+	  }
+	  
